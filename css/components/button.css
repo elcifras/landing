@@ -1,0 +1,15 @@
+.btn-primary {
+    display: inline-block;
+    background-color: #54B435;
+    border: 1px solid grey;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+    margin: 20px;
+    transition: 0.6s;
+}
+.btn-primary:hover {
+    background-color: #379237;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Apply a shadow for the "pop up" effect */
+transform: scale(1.1);
+}

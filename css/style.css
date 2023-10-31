@@ -1,0 +1,77 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url("components/button.css");
+@import url("components/card.css");
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+@media (min-width: 768px)
+injected stylesheet
+.container {
+    max-width: 768px;
+}
+@media (min-width: 640px)
+injected stylesheet
+.container {
+    max-width: 640px;
+}
+injected stylesheet
+.container {
+    width: 100%;
+}
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 500px;
+  text-align: center; /* Center the text within the container */
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  margin: auto; /* Center the container horizontally */
+}
+.body-container{
+  text-align: center;
+  margin: auto;
+}
+#banner {
+  background-image: url("../images/healthy food.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center; /* Center the content horizontally */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  height: auto;
+  display: flex; /* Use flex display to center vertically */
+  align-items: center; /* Center the content vertically */
+}
+/* Custom design below! */
+#banner h1 {
+  font-size:70px;
+  color: #54B435;
+}
+#banner p {
+  font-size: 20px;
+  color: white;
+}
+
+.footer {
+  background-color: #285430;
+  /* display: inline; */
+  text-align: center;
+  padding: 60px;
+}
+.footer a {
+  font-size: 50px;
+  color: #54B435;
+}
